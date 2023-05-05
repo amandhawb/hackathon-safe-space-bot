@@ -1,4 +1,4 @@
-# 💻 ✨ Safe Space Bot - TechTogether Hackathon 2023 💻 ✨
+# Safe Space Bot 💻 ✨
 
 This repository is reponsible for organize the code about our Hackathon Project.
 
