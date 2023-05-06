@@ -97,9 +97,15 @@ function initBotConversation() {
         hideSendBox: false, /* set to true to hide the send box from the view */
         botAvatarInitials: 'Bot',
         userAvatarInitials: 'You',
-        backgroundColor: '#F8F8F8'
+        backgroundColor: '#F8F8F8',
+        
+         bubbleBackground: 'rgba(0, 0, 255, .1)',
+         bubbleFromUserBackground: 'rgba(0, 255, 0, .1)',
+         rootHeight: '100%',
+         rootWidth: '50%',
+         backgroundColor: 'paleturquoise'
     };
-
+    
     const store = window.WebChat.createStore({}, function(store) { return function(next) { return function(action) {
         if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
             store.dispatch({
